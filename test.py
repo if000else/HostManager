@@ -7,7 +7,7 @@
 import paramiko,threading,pickle,os
 
 Base_path = os.path.dirname(os.path.abspath(__file__))
-config_path = Base_path +'/core/config'
+config_path = Base_path +'/files/config'
 #主机配置信息管理
 list_host = [{'host':'192.168.117.236','port':22,'user':'ubuntu1','password':'ubuntu1','group':1},
              {'host':'192.168.117.237','port':22,'user':'ubuntu2','password':'ubuntu2','group':1},
